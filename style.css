@@ -1,0 +1,38 @@
+
+        .container ul{
+            display:grid;
+            grid-template-columns: repeat(7,1fr);
+            grid-gap:1em;
+        }
+        .container li{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            font-size:4em;
+            height:80px;
+            background-color: rgba(16, 218, 207, 0.486);
+        }
+        #color{
+            background-color: rgb(223, 173, 11);
+        }
+        .Month{
+            margin-top: 2px;
+            margin-bottom:10px;
+            text-align: center;
+            font-size:4.5em;
+            color:rgb(1, 179, 170);
+        }
+        .date{
+            background-color: rgb(197, 49, 44) !important;
+            color: white;
+        }
+        .container li:hover{
+            background-color: red;
+        }
+        .container li::after{
+            background-color: yellow;
+        }
+        #color:hover{
+            background-color: rgb(0, 255, 136);
+        }
